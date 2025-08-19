@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Maxmal Herbal Capsule</title>
+  <link rel="stylesheet" href="static/all.css" />
+</head>
+<body>
+  <header>
+    <h1>Maxmal Herbal Capsule</h1>
+  </header>
+  <main>
+    <section class="product">
+      <img src="static/images/maxman_real.jpg" alt="Maxmal Herbal Capsule" />
+      <p>Maxmal is a herbal capsule formulated to restore male vitality, improve sexual health, and enhance long-lasting performance. 100% safe and organic.</p>
+      <h3>Ingredients:</h3>
+      <ul>
+        <li>Yohimbe Bark</li>
+        <li>Ginkgo Biloba</li>
+        <li>Tribulus Terrestris</li>
+        <li>Zinc</li>
+        <li>L-Arginine</li>
+      </ul>
+
+      <h3>Select Package</h3>
+      <select id="maxmal-package">
+        <option value="Starter">Starter (₦6,500)</option>
+        <option value="Standard">Standard (₦11,000)</option>
+        <option value="Premium">Premium (₦16,000)</option>
+      </select>
+
+      <form action="order.html" method="POST">
+        <h3>Place Your Order</h3>
+        <input type="text" name="fullname" placeholder="Full Name" required />
+        <input type="tel" name="phone" placeholder="Phone Number" required />
+        <input type="text" name="address" placeholder="Delivery Address" required />
+        <button type="submit">Place Order</button>
+      </form>
+    </section>
+  </main>
+</body>
+    <footer>
+        <p>Contact us via <a href="https://wa.me/+2349014657864" target="_blank">WhatsApp</a> for inquiries and support.</p>
+    </footer>
+</html>
